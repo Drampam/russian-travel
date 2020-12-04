@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 92px auto 24px;
+    width: calc(100% - (48px * 2));
+}
+
+.footer:last-child {
+    justify-self: flex-end;
+}
+
+@media all and (max-width: 1024px) {
+    .footer {
+        margin: 88px auto 24px;
+        width: calc(100% - (24px * 2));
+    }
+}
+@media all and (max-width: 768px) {
+    .footer {
+        margin: 64px 16px 24px auto;
+        width: 186px;
+    }
+}

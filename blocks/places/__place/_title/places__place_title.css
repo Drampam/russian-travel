@@ -1,0 +1,22 @@
+.places__place_title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .places__place_title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+@media all and (max-width: 768px) {
+    .places__place_title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: calc(100% - (16px * 2));
+    }
+}
