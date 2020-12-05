@@ -1,14 +1,1 @@
-.cover__overlay {
-    background-color: rgba(44, 44, 47, 0.3);
-    z-index: 2;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    grid-column: 1/5;
-    grid-row: 1/5;
-}
-
-.cover__overlay:hover {
-    background-color: rgba(44, 44, 47, 0.8);
-    cursor: url(../../../images/cursor.svg), auto;
-}
+/*  */

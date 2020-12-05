@@ -10,12 +10,12 @@
 
 @media all and (max-width: 768px) and (max-width:1024px) {
     .intro__text {
-        width: 100%;  
+        max-width: 100%;  
     }
 }
 /* Указал таким образом маржин топ 34пх, т.к. нет дизайнера, у которого можно спросить - ошибка это или инет, сделал полностью по макету */
 @media all and (max-width: 768px) {
     .intro__text {
-        margin-top: 34px;
+        margin: 34px 0 33px;
     }
 }

@@ -3,25 +3,32 @@
     font-weight: 900;
     line-height: 76px;
     letter-spacing: 0em;
-    text-align: center;
-    z-index: 3;
     max-width: 560px;
-    grid-column: 2/4;
-    grid-row: 2/3;
-    align-self: center;
-    justify-self: center;
-    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin: 245px auto 32px;
     color: #ffffff;
+    text-decoration: none;
 }
-
-.cover__title:hover {
-    cursor: url(../../../images/cursor.svg), auto;
+@media all and (max-width: 1280px) {
+    .cover__title {
+        margin: 195px auto 16px;
+    }
 }
-
+@media all and (max-width: 1024px) {
+    .cover__title {
+        margin: 115px auto 16px;
+    }
+}
 @media all and (max-width: 768px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
+        margin: 33px auto 16px;
     }
+}
+
+.cover__title:hover {
+    cursor: url(../../../images/cursor.svg), auto;
 }

@@ -10,13 +10,13 @@
 
 @media all and (max-width: 1024px) {
     .intro__title {
-        width: 100%; 
+        max-width: 100%; 
     }  
 }
 @media all and (max-width: 768px) {
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        width: 100%; 
+        max-width: 100%; 
     }
 }

@@ -5,11 +5,16 @@
     letter-spacing: 0em;
     text-align: left;
     list-style: none;
-    margin: 0;
+    margin: 0px 0px 25px;
     padding: 0;
+    max-width: 100%;
 }
 
-@media all and (max-width: 768px) and (max-width: 1024px) {
+.place__paragraph:last-child {
+    margin: 0px 0px 0px;
+}
+
+@media all and (max-width: 1024px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
@@ -17,6 +22,10 @@
 }
 @media all and (max-width: 768px) {
     .place__paragraph {
-        max-width: calc(100% - (16px * 2));
+        margin: 0px 16px 25px;
+    }
+    .place__paragraph:last-child {
+        margin: 0px 16px 0px;
     }
 }
+
