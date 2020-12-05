@@ -8,17 +8,17 @@
     margin: 0 0 80px;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .place {
         column-gap: 32px;
     }
-}@media all and (max-width: 1024px) {
+}@media all and (max-width: 1023px) {
     .place {
         column-gap: 28px;
         margin: 0 0 73px;
     }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .place {
         margin: 0 0 49px;
         grid-template-columns: 1fr;
