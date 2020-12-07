@@ -1,9 +1,11 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
     margin: 28px 48px 0;
     max-width: 100%;
 }
+
+
 
 @media all and (max-width: 1023px) {
     .header {

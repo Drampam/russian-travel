@@ -1,1 +1,8 @@
-/*  */
+.cover__overlay {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cover__overlay:hover {
+    cursor: url(../../../images/cursor.svg), auto;
+}

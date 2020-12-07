@@ -4,7 +4,6 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
-    list-style: none;
     text-decoration: none;
     color: #ffffff;
     display: flex;
@@ -15,10 +14,13 @@
 
 @media all and (max-width: 767px) {
     .footer__link {
-        flex-direction: column;
         font-size: 24px;
         line-height: 24px;
         margin-right: 0;
-        margin-bottom: 32px;
     }
+}
+
+.footer__link:hover {
+    cursor: url(../../../images/cursor.svg), auto;
+    opacity: 80%;
 }

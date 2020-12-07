@@ -6,6 +6,7 @@
     text-align: left;
     max-width: 690px;
     margin: 40px 0 33px;
+    padding: 0;
 }
 
 @media all and (max-width:1023px) {
